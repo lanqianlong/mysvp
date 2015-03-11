@@ -1,0 +1,382 @@
+.ui-icon-power-off {
+    background-image: url("../images/power-off.png");
+}
+.ui-icon-power-on {
+    background-image: url("../images/power-on.png");
+}
+.recording_highlight{
+    background:#c02323;
+    color: #ffffff;
+}
+
+
+#displayPane{
+	text-align:center;
+    margin:0px;
+    padding:0em;
+    width:100%;
+}
+
+#accelPane {
+    /*background-color:#90EE90;*/
+    display: inline-block;
+    height: 50%;
+    margin: auto;
+    text-align:center;
+    margin-top:1.0em;
+    width:98%;
+    vertical-align:bottom;
+}
+#accelPane1{
+    /*background-color:#90EE90;*/
+    display: inline-block;
+    height: 50%;
+    margin: auto;
+    text-align:center;
+    margin-top:1.0em;
+    width:98%;
+    vertical-align:bottom;
+	position:relative;
+	bottom:100px;
+}
+#accelPaneDisplay{
+left: -421px;
+top: -160px;
+position: absolute;
+width: 796px;
+height: 286px;
+}
+.graphTable1 {
+    
+    height:100%;
+    margin:auto;
+    width:10%;
+	position:relative;
+	top:10px;
+	left:-10px;
+
+	
+	
+}
+.graphTable2 {
+    border:1px solid;
+    height:50%;
+    margin:auto;
+    width:90%;
+	margin: auto;
+	top:320px;
+
+	
+}
+table#signals.graphTablePage4 {
+    border:1px solid;
+    margin:auto;
+	position:relative;
+	top:130px;
+	height:100%;
+	width:100%;
+	
+}
+.graphTable3{
+   height:100%;
+    margin:auto;
+    width:10%;
+	position:relative;
+	width:111px;
+	height:276px;
+	top:20px;
+	
+}
+.graphTable3 #td1{
+    height:88%;
+    width: 98%;
+    margin:0px;
+    padding:0px;
+	background-color:#B8C2D0;
+	border-radius:15px;
+
+	
+}
+.graphTable3 #td2{
+    height:88%;
+    width: 98%;
+    margin:0px;
+    padding:1px;
+	position:relative;
+	right:23px;
+	
+	
+}
+.graphTable1 #td1{
+    height:88%;
+    width: 98%;
+    margin:0px;
+    padding:0px;
+	background-color:#B8C2D0;
+	border-radius:15px;
+	
+}
+.graphTable1 #td2{
+    height:88%;
+    width: 98%;
+    margin:0px;
+    padding:1px;
+	position:relative;
+	right:23px;
+	
+	
+}
+
+.graphTable2 td ,.graphwindow,.graphTablePage4 td{
+    height:88%;
+    width: 98%;
+    margin:0px;
+    padding:0px;
+
+}
+.graphwindow1{
+   height:88%;
+    width: 98%;
+    margin:0px;
+    padding:0px;
+
+}
+.videoPaneChange{
+  
+    width: 50%;
+    height: 76%;  
+	
+ 
+    vertical-align: top;
+    margin: auto;
+    text-align:center;
+	position:relative;
+	top:100px;
+
+}
+
+
+#tempPane, #videoPane,#videoPane1{
+    display: inline-block;
+	margin: 0px;
+    padding:0px;
+	text-align:center;
+}
+div#tempPane.ui-draggable{
+width:69px;
+height:80px;
+left: 11px;
+top: 16px;
+}
+#videoPane{
+	
+	
+    vertical-align: top;
+    margin: auto;
+    text-align:center;
+	position:relative;
+	
+}
+#mediaspace{
+position:relative;
+left: 8px;
+top: 0px;
+}
+table#signals.graphTable2.ui-draggable{
+height: 50%;
+position: relative;
+left: 0.109375px;
+top: 2px;
+}
+
+#videoPaneDisplay{
+background-color:#8B8B8B;
+position: absolute;
+left: -198px; 
+top: -289px;
+width: 418px;
+}
+#mediaspace1{
+    margin: 0px;
+	padding:0px;
+   height:100%;
+   width:100%;
+}
+#tempPane {
+   height:10%;
+    margin:auto;
+    width:10%;
+	position:relative;
+	top:1px;
+	left:10px;
+}
+
+#tempPane td{
+	vertical-align: bottom;
+}
+#tempPane  td div{
+    width: 20px;
+    height: 0px;
+}
+
+#tempPane .tempBar{
+    background-color: rgb(224, 43, 64);
+
+    height: 0px;
+	margin: auto auto;
+  
+	padding:1px;
+    width: 30px;
+	border-radius:15px;
+}
+
+
+#tempPane .tempText{
+   
+	color: #000000;
+    display:inline-block;
+	font-size: 0.7em;
+	margin: 0px;
+    margin-bottom: 1.8em;
+ 
+	z-index:5;
+	position:relative;
+	left:-20px;
+	top:1.75em;
+	
+	
+	
+}
+#tempPane .tempBar1{
+    background-color: rgb(224, 43, 64);
+
+    height: 0px;
+	margin: auto auto;
+  
+	padding:1px;
+    width: 30px;
+	border-radius:15px;
+}
+
+
+#tempPane .tempText1{
+   
+	color: #000000;
+    display:inline-block;
+	font-size: 1em;
+	margin: 0px;
+    margin-bottom: 1.8em;
+ 
+	z-index:5;
+	position:relative;
+	left:-10px;
+	top:1.75em;
+	
+	
+	
+}
+#tempPane .Text{
+   
+	top:20px;
+    display:inline-block;
+	font-size: 0.7em;
+	margin: 0px;
+    margin-bottom: 20em;
+    width: 100%;
+	z-index:5;
+	position:relative;
+	
+	
+}
+
+
+
+
+
+
+#controls {
+    display: block;
+	margin: auto;
+	width:100%;
+    text-align:center;
+}
+#controls .t_row {
+    display: none;
+	margin: auto;
+    width:100%;
+    text-align:center;
+}
+
+#controls #recControls div.ui-controlgroup-controls {
+    display: inline-block;
+    width:auto;
+}
+
+
+#controls #slider_input input.ui-slider-input {
+    display: inline-block;	
+    width: 13%;
+}
+
+#slider_input  input.ui-input-text {
+    display: none; 
+}
+
+#slider_input .ui-slider {
+    width: 98%;
+}
+
+#controls2 .ui-controlgroup-controls {
+    width: auto;
+    display: inline-block;
+}
+
+#controls2 .ui-corner-left, #controls2 .ui-corner-right {
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+}
+
+#controls2 #menu.ui-btn{
+	width:30%;
+}
+#controls2 #menu_input span.ui-btn-inner{
+    display:inline;
+    padding: 0px;  
+} 
+	
+#controls2 #menu_input input.ui-input-text{
+    margin:0px;
+}
+
+#recControls {
+	display: inline-block;
+	margin:auto;
+}
+#recControls input{
+    text-align:center;
+    vertical-align:middle;
+}
+#recControls li span{
+		font-size: 0.85em;
+}
+#svpControls input, #svpControls label {
+	text-align:center;
+	vertical-align:middle;
+}
+#svpControls label, #svpControls {
+	font-size:1.0em;
+}
+#svpControls input, #svpControls .units {
+  /*  margin:0px 0.25em 0px 0px;
+	visibility:hidden;*/
+	display: none;
+	width:100%;
+}
+
+#svpControls .ui-btn-inner {
+	padding: 0.55em 5px 0.5em;
+}
+th{
+font-size:10px;
+
+}
